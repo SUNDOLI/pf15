@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #014199;
+    --text-color: #202124;
+    --inner-size: 1170px
+}
+
+body {
+    color: var(--text-color);
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.default {
+    padding: 80px 0;
+}
+
+.default .title {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.default .title h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.default .title .desc {
+    display: block;
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 17px;
+    font-weight: 400;
+}
